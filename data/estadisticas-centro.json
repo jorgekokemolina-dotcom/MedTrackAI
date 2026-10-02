@@ -1,0 +1,307 @@
+{
+  "establecimientos": [
+    {
+      "id": "est001",
+      "nombre": "Hospital Base Valdivia",
+      "tipo": "Hospital de Alta Complejidad",
+      "camas": 580,
+      "comuna": "Valdivia",
+      "datos_mensuales": [
+        {
+          "mes": "2025-01",
+          "cumplimiento_ges": 96.8, "garantias_ges_activas": 4650, "garantias_cumplidas_plazo": 4501, "garantias_retrasadas": 149,
+          "lista_espera_no_ges": 2980, "espera_consulta_especialidad": 2214, "espera_cirugia_electiva": 766,
+          "mediana_espera_consulta_dias": 232, "mediana_espera_cirugia_dias": 285, "tasa_resolucion_aps": 70.2,
+          "derivaciones_mes": 340, "pertinencia_derivaciones": 65.0, "consultas_urgencia": 4200, "consultas_especialidad": 3100,
+          "egresos_hospitalarios": 1850, "cirugias_realizadas": 420, "atenciones_aps": 8500, "ioc": 83.2,
+          "rotacion_camas": 6.0, "promedio_estancia_dias": 5.1, "intervalo_sustitucion": 1.0, "rendimiento_box": 5.6,
+          "iod": 76.0, "ausentismo_pacientes": 19.1, "espera_urgencia_min": 45, "tasa_iaas": 3.1,
+          "iaas_ituc": 1.2, "iaas_nav": 0.6, "iaas_bacvc": 0.8, "iaas_iso": 0.5,
+          "reingreso_30_dias": 9.1, "mortalidad_bruta": 1.9, "mortalidad_urgencia_24h": 0.3, "eventos_adversos": 4,
+          "caidas_1000_dias": 1.5, "ulceras_presion_iii_iv": 0, "ausentismo_licencia": 6.5,
+          "horas_capacitacion_promedio": 1.2, "rotacion_personal": 8.8, "cobertura_pscv": 69.0,
+          "cobertura_salud_mental": 55.0, "control_hba1c": 46.0, "control_hipertensos": 53.0,
+          "cobertura_pap": 62.0, "cobertura_mamografia": 55.0, "cobertura_influenza_65": 76.0,
+          "cobertura_covid_refuerzo": 59.0, "cobertura_emp": 41.0,
+          "ficha_digital_pct": 28.0, "historias_unificadas": 3480, "centros_conectados": 2,
+          "examenes_duplicados_evitados": 95, "tiempo_acceso_historial_seg": 12,
+          "derivaciones_con_historial": 65.0, "urgencias_con_medicacion": 82.0,
+          "productividad": {
+            "medicina": { "consultas": 680, "meta": 700, "cumplimiento": 97.1, "rendimiento_box": 5.8 },
+            "cirugia": { "consultas": 450, "meta": 480, "cumplimiento": 93.7, "rendimiento_box": 5.5 },
+            "pediatria": { "consultas": 520, "meta": 500, "cumplimiento": 104.0, "rendimiento_box": 6.2 },
+            "obstetricia": { "consultas": 380, "meta": 400, "cumplimiento": 95.0, "rendimiento_box": 5.7 },
+            "psiquiatria": { "consultas": 280, "meta": 320, "cumplimiento": 87.5, "rendimiento_box": 4.8 }
+          },
+          "dotacion": {
+            "medicos": { "actual": 142, "requerida": 158 }, "enfermeras": { "actual": 210, "requerida": 225 },
+            "tens": { "actual": 320, "requerida": 310 }, "administrativos": { "actual": 85, "requerida": 90 },
+            "otros": { "actual": 95, "requerida": 100 }
+          },
+          "ausentismo_estamento": { "medicos": 4.8, "enfermeras": 7.2, "tens": 6.8, "administrativos": 5.5, "otros": 6.0 },
+          "ges_retraso_patologias": [
+            { "patologia": "Diabetes Mellitus Tipo 2", "casos": 28 }, { "patologia": "Cataratas", "casos": 24 },
+            { "patologia": "Retinopatía Diabética", "casos": 22 }, { "patologia": "Hipoacusia", "casos": 18 },
+            { "patologia": "Cáncer de Mama", "casos": 14 }
+          ],
+          "especialidades_espera": [
+            { "especialidad": "Traumatología", "pacientes": 520 }, { "especialidad": "Oftalmología", "pacientes": 480 },
+            { "especialidad": "Cardiología", "pacientes": 390 }, { "especialidad": "Dermatología", "pacientes": 340 },
+            { "especialidad": "Neurología", "pacientes": 284 }
+          ],
+          "reingresos_servicio": { "medicina_interna": 3.8, "cirugia": 2.1, "pediatria": 1.2, "obstetricia": 0.8, "psiquiatria": 0.8 },
+          "cronicas_prevalencia": { "hipertension": 34, "diabetes_tipo_2": 18, "dislipidemia": 15, "obesidad": 12, "epoc": 8, "otros": 13 },
+          "top_diagnosticos_cie10": [
+            { "codigo": "I10", "nombre": "Hipertensión Arterial Esencial", "casos": 3420, "porcentaje": 18.2 },
+            { "codigo": "E11", "nombre": "Diabetes Mellitus Tipo 2", "casos": 2180, "porcentaje": 11.6 },
+            { "codigo": "E78", "nombre": "Dislipidemia", "casos": 1850, "porcentaje": 9.8 },
+            { "codigo": "E66", "nombre": "Obesidad", "casos": 1540, "porcentaje": 8.2 },
+            { "codigo": "J44", "nombre": "EPOC", "casos": 980, "porcentaje": 5.2 }
+          ]
+        },
+        {
+          "mes": "2025-08",
+          "cumplimiento_ges": 95.8, "garantias_ges_activas": 4720, "garantias_cumplidas_plazo": 4521, "garantias_retrasadas": 199,
+          "lista_espera_no_ges": 3120, "espera_consulta_especialidad": 2300, "espera_cirugia_electiva": 820,
+          "mediana_espera_consulta_dias": 235, "mediana_espera_cirugia_dias": 290, "tasa_resolucion_aps": 70.8,
+          "derivaciones_mes": 355, "pertinencia_derivaciones": 66.0, "consultas_urgencia": 4350, "consultas_especialidad": 3200,
+          "egresos_hospitalarios": 1820, "cirugias_realizadas": 405, "atenciones_aps": 8600, "ioc": 85.2,
+          "rotacion_camas": 6.2, "promedio_estancia_dias": 5.3, "intervalo_sustitucion": 0.8, "rendimiento_box": 5.4,
+          "iod": 74.0, "ausentismo_pacientes": 19.5, "espera_urgencia_min": 52, "tasa_iaas": 4.8,
+          "iaas_ituc": 2.1, "iaas_nav": 1.2, "iaas_bacvc": 1.0, "iaas_iso": 0.5,
+          "reingreso_30_dias": 9.8, "mortalidad_bruta": 2.1, "mortalidad_urgencia_24h": 0.4, "eventos_adversos": 7,
+          "caidas_1000_dias": 1.8, "ulceras_presion_iii_iv": 2, "ausentismo_licencia": 7.5,
+          "horas_capacitacion_promedio": 1.0, "rotacion_personal": 8.9, "cobertura_pscv": 69.2,
+          "cobertura_salud_mental": 55.5, "control_hba1c": 46.5, "control_hipertensos": 53.2,
+          "cobertura_pap": 62.5, "cobertura_mamografia": 55.8, "cobertura_influenza_65": 78.0,
+          "cobertura_covid_refuerzo": 61.0, "cobertura_emp": 41.5,
+          "ficha_digital_pct": 34.0, "historias_unificadas": 3800, "centros_conectados": 3,
+          "examenes_duplicados_evitados": 120, "tiempo_acceso_historial_seg": 11,
+          "derivaciones_con_historial": 72.0, "urgencias_con_medicacion": 85.0,
+          "productividad": {
+            "medicina": { "consultas": 690, "meta": 700, "cumplimiento": 98.5, "rendimiento_box": 5.8 },
+            "cirugia": { "consultas": 440, "meta": 480, "cumplimiento": 91.6, "rendimiento_box": 5.4 },
+            "pediatria": { "consultas": 540, "meta": 500, "cumplimiento": 108.0, "rendimiento_box": 6.3 },
+            "obstetricia": { "consultas": 385, "meta": 400, "cumplimiento": 96.2, "rendimiento_box": 5.7 },
+            "psiquiatria": { "consultas": 290, "meta": 320, "cumplimiento": 90.6, "rendimiento_box": 4.9 }
+          },
+          "dotacion": {
+            "medicos": { "actual": 140, "requerida": 158 }, "enfermeras": { "actual": 208, "requerida": 225 },
+            "tens": { "actual": 315, "requerida": 310 }, "administrativos": { "actual": 85, "requerida": 90 },
+            "otros": { "actual": 94, "requerida": 100 }
+          },
+          "ausentismo_estamento": { "medicos": 5.2, "enfermeras": 8.5, "tens": 7.9, "administrativos": 6.1, "otros": 6.5 },
+          "ges_retraso_patologias": [
+            { "patologia": "Diabetes Mellitus Tipo 2", "casos": 35 }, { "patologia": "Cataratas", "casos": 28 },
+            { "patologia": "Retinopatía Diabética", "casos": 25 }, { "patologia": "Hipoacusia", "casos": 20 },
+            { "patologia": "Cáncer de Mama", "casos": 16 }
+          ],
+          "especialidades_espera": [
+            { "especialidad": "Traumatología", "pacientes": 545 }, { "especialidad": "Oftalmología", "pacientes": 510 },
+            { "especialidad": "Cardiología", "pacientes": 405 }, { "especialidad": "Dermatología", "pacientes": 355 },
+            { "especialidad": "Neurología", "pacientes": 305 }
+          ],
+          "reingresos_servicio": { "medicina_interna": 4.2, "cirugia": 2.5, "pediatria": 1.4, "obstetricia": 0.9, "psiquiatria": 0.8 },
+          "cronicas_prevalencia": { "hipertension": 34.5, "diabetes_tipo_2": 18.2, "dislipidemia": 15.1, "obesidad": 12.2, "epoc": 8.1, "otros": 13 },
+          "top_diagnosticos_cie10": [
+            { "codigo": "I10", "nombre": "Hipertensión Arterial Esencial", "casos": 3440, "porcentaje": 18.1 },
+            { "codigo": "E11", "nombre": "Diabetes Mellitus Tipo 2", "casos": 2210, "porcentaje": 11.6 },
+            { "codigo": "E78", "nombre": "Dislipidemia", "casos": 1865, "porcentaje": 9.8 },
+            { "codigo": "E66", "nombre": "Obesidad", "casos": 1560, "porcentaje": 8.2 },
+            { "codigo": "J44", "nombre": "EPOC", "casos": 995, "porcentaje": 5.2 }
+          ]
+        },
+        {
+          "mes": "2025-12",
+          "cumplimiento_ges": 97.5, "garantias_ges_activas": 4680, "garantias_cumplidas_plazo": 4563, "garantias_retrasadas": 117,
+          "lista_espera_no_ges": 2847, "espera_consulta_especialidad": 2100, "espera_cirugia_electiva": 747,
+          "mediana_espera_consulta_dias": 225, "mediana_espera_cirugia_dias": 275, "tasa_resolucion_aps": 71.5,
+          "derivaciones_mes": 320, "pertinencia_derivaciones": 68.0, "consultas_urgencia": 4050, "consultas_especialidad": 3150,
+          "egresos_hospitalarios": 1880, "cirugias_realizadas": 440, "atenciones_aps": 8400, "ioc": 82.5,
+          "rotacion_camas": 6.1, "promedio_estancia_dias": 5.0, "intervalo_sustitucion": 1.1, "rendimiento_box": 5.8,
+          "iod": 78.0, "ausentismo_pacientes": 18.5, "espera_urgencia_min": 42, "tasa_iaas": 3.0,
+          "iaas_ituc": 1.1, "iaas_nav": 0.5, "iaas_bacvc": 0.7, "iaas_iso": 0.4,
+          "reingreso_30_dias": 8.9, "mortalidad_bruta": 1.8, "mortalidad_urgencia_24h": 0.2, "eventos_adversos": 3,
+          "caidas_1000_dias": 1.2, "ulceras_presion_iii_iv": 0, "ausentismo_licencia": 6.2,
+          "horas_capacitacion_promedio": 1.5, "rotacion_personal": 8.5, "cobertura_pscv": 70.0,
+          "cobertura_salud_mental": 56.5, "control_hba1c": 47.5, "control_hipertensos": 54.5,
+          "cobertura_pap": 64.0, "cobertura_mamografia": 57.0, "cobertura_influenza_65": 78.5,
+          "cobertura_covid_refuerzo": 62.0, "cobertura_emp": 42.5,
+          "ficha_digital_pct": 38.0, "historias_unificadas": 4218, "centros_conectados": 3,
+          "examenes_duplicados_evitados": 145, "tiempo_acceso_historial_seg": 9,
+          "derivaciones_con_historial": 78.0, "urgencias_con_medicacion": 88.0,
+          "productividad": {
+            "medicina": { "consultas": 710, "meta": 700, "cumplimiento": 101.4, "rendimiento_box": 5.9 },
+            "cirugia": { "consultas": 460, "meta": 480, "cumplimiento": 95.8, "rendimiento_box": 5.6 },
+            "pediatria": { "consultas": 510, "meta": 500, "cumplimiento": 102.0, "rendimiento_box": 6.1 },
+            "obstetricia": { "consultas": 395, "meta": 400, "cumplimiento": 98.8, "rendimiento_box": 5.8 },
+            "psiquiatria": { "consultas": 305, "meta": 320, "cumplimiento": 95.3, "rendimiento_box": 5.0 }
+          },
+          "dotacion": {
+            "medicos": { "actual": 145, "requerida": 158 }, "enfermeras": { "actual": 215, "requerida": 225 },
+            "tens": { "actual": 322, "requerida": 310 }, "administrativos": { "actual": 88, "requerida": 90 },
+            "otros": { "actual": 96, "requerida": 100 }
+          },
+          "ausentismo_estamento": { "medicos": 4.5, "enfermeras": 6.8, "tens": 6.2, "administrativos": 5.1, "otros": 5.8 },
+          "ges_retraso_patologias": [
+            { "patologia": "Diabetes Mellitus Tipo 2", "casos": 25 }, { "patologia": "Cataratas", "casos": 20 },
+            { "patologia": "Retinopatía Diabética", "casos": 18 }, { "patologia": "Hipoacusia", "casos": 15 },
+            { "patologia": "Cáncer de Mama", "casos": 10 }
+          ],
+          "especialidades_espera": [
+            { "especialidad": "Traumatología", "pacientes": 490 }, { "especialidad": "Oftalmología", "pacientes": 450 },
+            { "especialidad": "Cardiología", "pacientes": 370 }, { "especialidad": "Dermatología", "pacientes": 310 },
+            { "especialidad": "Neurología", "pacientes": 270 }
+          ],
+          "reingresos_servicio": { "medicina_interna": 3.5, "cirugia": 1.9, "pediatria": 1.0, "obstetricia": 0.7, "psiquiatria": 0.7 },
+          "cronicas_prevalencia": { "hipertension": 34.8, "diabetes_tipo_2": 18.5, "dislipidemia": 15.3, "obesidad": 12.5, "epoc": 8.2, "otros": 13 },
+          "top_diagnosticos_cie10": [
+            { "codigo": "I10", "nombre": "Hipertensión Arterial Esencial", "casos": 3480, "porcentaje": 18.0 },
+            { "codigo": "E11", "nombre": "Diabetes Mellitus Tipo 2", "casos": 2240, "porcentaje": 11.6 },
+            { "codigo": "E78", "nombre": "Dislipidemia", "casos": 1890, "porcentaje": 9.8 },
+            { "codigo": "E66", "nombre": "Obesidad", "casos": 1580, "porcentaje": 8.2 },
+            { "codigo": "J44", "nombre": "EPOC", "casos": 1010, "porcentaje": 5.2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "est003",
+      "nombre": "CESFAM Lago Ranco",
+      "tipo": "Centro de Salud Familiar",
+      "camas": null,
+      "comuna": "Lago Ranco",
+      "datos_mensuales": [
+        {
+          "mes": "2025-01",
+          "cumplimiento_ges": 98.1, "garantias_ges_activas": 850, "garantias_cumplidas_plazo": 834, "garantias_retrasadas": 16,
+          "lista_espera_no_ges": 450, "espera_consulta_especialidad": 450, "espera_cirugia_electiva": 0,
+          "mediana_espera_consulta_dias": 180, "mediana_espera_cirugia_dias": null, "tasa_resolucion_aps": 78.5,
+          "derivaciones_mes": 85, "pertinencia_derivaciones": 82.0, "consultas_urgencia": 950, "consultas_especialidad": 0,
+          "egresos_hospitalarios": null, "cirugias_realizadas": null, "atenciones_aps": 4500, "ioc": null,
+          "rotacion_camas": null, "promedio_estancia_dias": null, "intervalo_sustitucion": null, "rendimiento_box": 4.5,
+          "iod": null, "ausentismo_pacientes": 12.1, "espera_urgencia_min": 25, "tasa_iaas": null,
+          "iaas_ituc": null, "iaas_nav": null, "iaas_bacvc": null, "iaas_iso": null,
+          "reingreso_30_dias": null, "mortalidad_bruta": null, "mortalidad_urgencia_24h": null, "eventos_adversos": 1,
+          "caidas_1000_dias": null, "ulceras_presion_iii_iv": null, "ausentismo_licencia": 4.5,
+          "horas_capacitacion_promedio": 1.8, "rotacion_personal": 4.8, "cobertura_pscv": 74.0,
+          "cobertura_salud_mental": 62.0, "control_hba1c": 52.0, "control_hipertensos": 61.0,
+          "cobertura_pap": 68.0, "cobertura_mamografia": 61.0, "cobertura_influenza_65": 82.0,
+          "cobertura_covid_refuerzo": 65.0, "cobertura_emp": 48.0,
+          "ficha_digital_pct": 22.0, "historias_unificadas": 850, "centros_conectados": 2,
+          "examenes_duplicados_evitados": 45, "tiempo_acceso_historial_seg": 10,
+          "derivaciones_con_historial": 75.0, "urgencias_con_medicacion": 85.0,
+          "productividad": {
+            "medicina": { "consultas": 1200, "meta": 1250, "cumplimiento": 96.0, "rendimiento_box": 4.5 }
+          },
+          "dotacion": {
+            "medicos": { "actual": 12, "requerida": 14 }, "enfermeras": { "actual": 15, "requerida": 16 },
+            "tens": { "actual": 25, "requerida": 25 }, "administrativos": { "actual": 8, "requerida": 8 },
+            "otros": { "actual": 5, "requerida": 5 }
+          },
+          "ausentismo_estamento": { "medicos": 3.8, "enfermeras": 4.2, "tens": 5.8, "administrativos": 3.5, "otros": 4.0 },
+          "ges_retraso_patologias": [
+            { "patologia": "Diabetes Mellitus Tipo 2", "casos": 8 }, { "patologia": "Hipertensión Arterial", "casos": 5 }
+          ],
+          "especialidades_espera": [
+            { "especialidad": "Oftalmología", "pacientes": 120 }, { "especialidad": "Traumatología", "pacientes": 95 }
+          ],
+          "reingresos_servicio": {},
+          "cronicas_prevalencia": { "hipertension": 36, "diabetes_tipo_2": 19, "dislipidemia": 16, "obesidad": 14, "epoc": 7, "otros": 12 },
+          "top_diagnosticos_cie10": [
+            { "codigo": "I10", "nombre": "Hipertensión Arterial Esencial", "casos": 850, "porcentaje": 18.8 }
+          ]
+        },
+        {
+          "mes": "2025-12",
+          "cumplimiento_ges": 98.8, "garantias_ges_activas": 820, "garantias_cumplidas_plazo": 810, "garantias_retrasadas": 10,
+          "lista_espera_no_ges": 410, "espera_consulta_especialidad": 410, "espera_cirugia_electiva": 0,
+          "mediana_espera_consulta_dias": 170, "mediana_espera_cirugia_dias": null, "tasa_resolucion_aps": 79.5,
+          "derivaciones_mes": 78, "pertinencia_derivaciones": 85.0, "consultas_urgencia": 900, "consultas_especialidad": 0,
+          "egresos_hospitalarios": null, "cirugias_realizadas": null, "atenciones_aps": 4800, "ioc": null,
+          "rotacion_camas": null, "promedio_estancia_dias": null, "intervalo_sustitucion": null, "rendimiento_box": 4.8,
+          "iod": null, "ausentismo_pacientes": 11.5, "espera_urgencia_min": 22, "tasa_iaas": null,
+          "iaas_ituc": null, "iaas_nav": null, "iaas_bacvc": null, "iaas_iso": null,
+          "reingreso_30_dias": null, "mortalidad_bruta": null, "mortalidad_urgencia_24h": null, "eventos_adversos": 0,
+          "caidas_1000_dias": null, "ulceras_presion_iii_iv": null, "ausentismo_licencia": 4.2,
+          "horas_capacitacion_promedio": 2.1, "rotacion_personal": 4.5, "cobertura_pscv": 76.0,
+          "cobertura_salud_mental": 64.0, "control_hba1c": 54.0, "control_hipertensos": 63.0,
+          "cobertura_pap": 70.0, "cobertura_mamografia": 63.0, "cobertura_influenza_65": 84.0,
+          "cobertura_covid_refuerzo": 68.0, "cobertura_emp": 50.0,
+          "ficha_digital_pct": 32.0, "historias_unificadas": 1150, "centros_conectados": 3,
+          "examenes_duplicados_evitados": 65, "tiempo_acceso_historial_seg": 8,
+          "derivaciones_con_historial": 82.0, "urgencias_con_medicacion": 90.0,
+          "productividad": {
+            "medicina": { "consultas": 1280, "meta": 1250, "cumplimiento": 102.4, "rendimiento_box": 4.8 }
+          },
+          "dotacion": {
+            "medicos": { "actual": 13, "requerida": 14 }, "enfermeras": { "actual": 16, "requerida": 16 },
+            "tens": { "actual": 25, "requerida": 25 }, "administrativos": { "actual": 8, "requerida": 8 },
+            "otros": { "actual": 5, "requerida": 5 }
+          },
+          "ausentismo_estamento": { "medicos": 3.5, "enfermeras": 4.0, "tens": 5.2, "administrativos": 3.1, "otros": 3.8 },
+          "ges_retraso_patologias": [
+            { "patologia": "Diabetes Mellitus Tipo 2", "casos": 5 }, { "patologia": "Hipertensión Arterial", "casos": 3 }
+          ],
+          "especialidades_espera": [
+            { "especialidad": "Oftalmología", "pacientes": 105 }, { "especialidad": "Traumatología", "pacientes": 85 }
+          ],
+          "reingresos_servicio": {},
+          "cronicas_prevalencia": { "hipertension": 36.2, "diabetes_tipo_2": 19.5, "dislipidemia": 16.1, "obesidad": 14.2, "epoc": 7.1, "otros": 12 },
+          "top_diagnosticos_cie10": [
+            { "codigo": "I10", "nombre": "Hipertensión Arterial Esencial", "casos": 870, "porcentaje": 18.9 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "est005",
+      "nombre": "Centro de Salud Rural Llifén",
+      "tipo": "Centro de Salud Rural",
+      "camas": null,
+      "comuna": "Llifén",
+      "datos_mensuales": [
+        {
+          "mes": "2025-12",
+          "cumplimiento_ges": 99.2, "garantias_ges_activas": 150, "garantias_cumplidas_plazo": 149, "garantias_retrasadas": 1,
+          "lista_espera_no_ges": 85, "espera_consulta_especialidad": 85, "espera_cirugia_electiva": 0,
+          "mediana_espera_consulta_dias": 150, "mediana_espera_cirugia_dias": null, "tasa_resolucion_aps": 82.0,
+          "derivaciones_mes": 15, "pertinencia_derivaciones": 90.0, "consultas_urgencia": 120, "consultas_especialidad": 0,
+          "egresos_hospitalarios": null, "cirugias_realizadas": null, "atenciones_aps": 800, "ioc": null,
+          "rotacion_camas": null, "promedio_estancia_dias": null, "intervalo_sustitucion": null, "rendimiento_box": 4.0,
+          "iod": null, "ausentismo_pacientes": 8.5, "espera_urgencia_min": 15, "tasa_iaas": null,
+          "iaas_ituc": null, "iaas_nav": null, "iaas_bacvc": null, "iaas_iso": null,
+          "reingreso_30_dias": null, "mortalidad_bruta": null, "mortalidad_urgencia_24h": null, "eventos_adversos": 0,
+          "caidas_1000_dias": null, "ulceras_presion_iii_iv": null, "ausentismo_licencia": 3.0,
+          "horas_capacitacion_promedio": 1.5, "rotacion_personal": 2.0, "cobertura_pscv": 78.0,
+          "cobertura_salud_mental": 65.0, "control_hba1c": 58.0, "control_hipertensos": 68.0,
+          "cobertura_pap": 72.0, "cobertura_mamografia": 65.0, "cobertura_influenza_65": 88.0,
+          "cobertura_covid_refuerzo": 70.0, "cobertura_emp": 55.0,
+          "ficha_digital_pct": 20.0, "historias_unificadas": 150, "centros_conectados": 3,
+          "examenes_duplicados_evitados": 12, "tiempo_acceso_historial_seg": 15,
+          "derivaciones_con_historial": 60.0, "urgencias_con_medicacion": 75.0,
+          "productividad": {
+            "medicina": { "consultas": 200, "meta": 190, "cumplimiento": 105.2, "rendimiento_box": 4.2 }
+          },
+          "dotacion": {
+            "medicos": { "actual": 2, "requerida": 2 }, "enfermeras": { "actual": 2, "requerida": 2 },
+            "tens": { "actual": 4, "requerida": 4 }, "administrativos": { "actual": 1, "requerida": 1 },
+            "otros": { "actual": 1, "requerida": 1 }
+          },
+          "ausentismo_estamento": { "medicos": 1.0, "enfermeras": 1.5, "tens": 2.0, "administrativos": 0.0, "otros": 0.0 },
+          "ges_retraso_patologias": [
+            { "patologia": "Diabetes Mellitus Tipo 2", "casos": 1 }
+          ],
+          "especialidades_espera": [
+            { "especialidad": "Oftalmología", "pacientes": 20 }
+          ],
+          "reingresos_servicio": {},
+          "cronicas_prevalencia": { "hipertension": 38, "diabetes_tipo_2": 20, "dislipidemia": 17, "obesidad": 15, "epoc": 6, "otros": 10 },
+          "top_diagnosticos_cie10": [
+            { "codigo": "I10", "nombre": "Hipertensión Arterial Esencial", "casos": 150, "porcentaje": 18.7 }
+          ]
+        }
+      ]
+    }
+  ]
+}

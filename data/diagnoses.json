@@ -1,0 +1,7 @@
+[
+  {"id": "dx001", "codigo": "E11", "nombre": "Diabetes Mellitus Tipo 2", "categoria": "Endocrino/Metabólico"},
+  {"id": "dx002", "codigo": "I10", "nombre": "Hipertensión Arterial Esencial", "categoria": "Cardiovascular"},
+  {"id": "dx003", "codigo": "J45", "nombre": "Asma Bronquial", "categoria": "Respiratorio"},
+  {"id": "dx004", "codigo": "E03", "nombre": "Hipotiroidismo", "categoria": "Endocrino/Metabólico"},
+  {"id": "dx005", "codigo": "E78", "nombre": "Dislipidemia", "categoria": "Endocrino/Metabólico"}
+]

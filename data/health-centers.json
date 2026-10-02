@@ -1,0 +1,11 @@
+[
+  {"id": "cs001", "nombre": "Hospital Clínico UC Christus", "comuna": "Providencia", "tipo": "Hospital Privado"},
+  {"id": "cs002", "nombre": "Clínica Las Condes", "comuna": "Las Condes", "tipo": "Clínica Privada"},
+  {"id": "cs003", "nombre": "Hospital San Juan de Dios", "comuna": "Santiago Centro", "tipo": "Hospital Público"},
+  {"id": "cs004", "nombre": "CESFAM Salvador Bustos", "comuna": "Ñuñoa", "tipo": "Centro de Salud Primaria"},
+  {"id": "cs005", "nombre": "Hospital El Carmen", "comuna": "Maipú", "tipo": "Hospital Público"},
+  {"id": "cs006", "nombre": "Hospital Sótero del Río", "comuna": "Puente Alto", "tipo": "Hospital Público"},
+  {"id": "cs007", "nombre": "CESFAM La Florida", "comuna": "La Florida", "tipo": "Centro de Salud Primaria"},
+  {"id": "cs008", "nombre": "Clínica Alemana", "comuna": "Vitacura", "tipo": "Clínica Privada"},
+  {"id": "cs009", "nombre": "Hospital San José", "comuna": "Recoleta", "tipo": "Hospital Público"}
+]
