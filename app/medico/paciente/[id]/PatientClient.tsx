@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -78,37 +78,37 @@ const eventBg: Record<string, string> = {
   cambio_medicacion: "#FEF3C7",
 };
 
-export default function PatientClient({ id, initialData }: { id: string, initialData: any }) {
+export default function PatientClient({ id, initialData }: { id: string, initialData?: any }) {
   const router = useRouter();
+  const [patient, setPatient] = useState<any>(initialData || null);
+  const [loading, setLoading] = useState(!initialData);
 
-  const patient = initialData;
-  const patientLabs = useMemo(
-    () =>
-      labResults
-        .filter((l) => l.pacienteId === id)
-        .sort((a, b) => new Date(b.fecha).getTime() - new Date(a.fecha).getTime()),
-    [id]
-  );
-  const patientMeds = useMemo(
-    () => medications.filter((m) => m.pacienteId === id),
-    [id]
-  );
-  const patientEvents = useMemo(
-    () =>
-      timelineEvents
-        .filter((e) => e.pacienteId === id)
-        .sort((a, b) => new Date(b.fecha).getTime() - new Date(a.fecha).getTime()),
-    [id]
-  );
-  const patientImages = useMemo(
-    () => medicalImages.filter((i) => i.pacienteId === id),
-    [id]
-  );
+  useEffect(() => {
+    if (!patient) {
+      fetch(`/api/medico/paciente/${id}`)
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.success && data.paciente) {
+            setPatient(data.paciente);
+          }
+        })
+        .catch((err) => console.error("Error cargando detalle de paciente:", err))
+        .finally(() => setLoading(false));
+    }
+  }, [id, patient]);
+
+  if (loading) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 py-16 text-center text-[#64748B]">
+        Cargando y descifrando datos del paciente...
+      </div>
+    );
+  }
 
   if (!patient) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-16 text-center">
-        <p className="text-[#64748B]">Paciente no encontrado.</p>
+        <p className="text-[#64748B]">Paciente no encontrado o eliminado.</p>
         <Link href="/medico" className="text-[#0EA5C4] underline mt-4 block">
           Volver al panel
         </Link>
