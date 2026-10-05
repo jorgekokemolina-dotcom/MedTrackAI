@@ -1,0 +1,10 @@
+[
+  {"id": "img001", "pacienteId": "p001", "tipo": "Radiografía de Tórax", "fecha": "2025-09-20", "centro": "Hospital Clínico UC Christus", "descripcion": "Radiografía PA de tórax. Silueta cardíaca normal. Campos pulmonares limpios.", "archivoPlaceholder": "rx_torax_01.jpg"},
+  {"id": "img002", "pacienteId": "p001", "tipo": "Ecografía Abdominal", "fecha": "2026-03-05", "centro": "Hospital Clínico UC Christus", "descripcion": "Ecografía abdominal completa. Hígado de tamaño normal, esteatosis leve.", "archivoPlaceholder": "eco_abdominal_01.jpg"},
+  {"id": "img003", "pacienteId": "p004", "tipo": "Radiografía de Tórax", "fecha": "2026-01-10", "centro": "Hospital San Juan de Dios", "descripcion": "Radiografía PA de tórax. Cardiomegalia leve. Sin derrame pleural.", "archivoPlaceholder": "rx_torax_02.jpg"},
+  {"id": "img004", "pacienteId": "p004", "tipo": "Ecografía Renal", "fecha": "2026-04-20", "centro": "Hospital San Juan de Dios", "descripcion": "Ecografía renal bilateral. Riñones de tamaño normal, ecogenicidad conservada.", "archivoPlaceholder": "eco_renal_01.jpg"},
+  {"id": "img005", "pacienteId": "p008", "tipo": "Radiografía de Tórax", "fecha": "2026-04-10", "centro": "Hospital Sótero del Río", "descripcion": "Radiografía PA de tórax. Hiperinsuflación pulmonar compatible con enfermedad obstructiva.", "archivoPlaceholder": "rx_torax_03.jpg"},
+  {"id": "img006", "pacienteId": "p003", "tipo": "Radiografía de Tórax", "fecha": "2025-10-05", "centro": "CESFAM Salvador Bustos", "descripcion": "Radiografía PA de tórax. Sin infiltrados. Compatible con normalidad.", "archivoPlaceholder": "rx_torax_04.jpg"},
+  {"id": "img007", "pacienteId": "p010", "tipo": "Ecografía Abdominal", "fecha": "2026-03-15", "centro": "Hospital San José", "descripcion": "Ecografía abdominal. Esteatosis hepática moderada. Vesícula sin litiasis.", "archivoPlaceholder": "eco_abdominal_02.jpg"},
+  {"id": "img008", "pacienteId": "p006", "tipo": "Fondo de Ojo", "fecha": "2026-02-15", "centro": "Hospital El Carmen", "descripcion": "Fotografía de fondo de ojo. Sin signos de retinopatía diabética.", "archivoPlaceholder": "fondo_ojo_01.jpg"}
+]

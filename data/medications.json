@@ -1,0 +1,36 @@
+[
+  {"id": "med001", "pacienteId": "p001", "medicamento": "Metformina", "dosis": "850 mg", "frecuencia": "Cada 12 horas", "via": "Oral", "fechaInicio": "2023-03-10", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Alejandro Morales"},
+  {"id": "med002", "pacienteId": "p001", "medicamento": "Losartán", "dosis": "50 mg", "frecuencia": "Cada 24 horas", "via": "Oral", "fechaInicio": "2022-11-15", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Carmen Reyes"},
+  {"id": "med003", "pacienteId": "p001", "medicamento": "Atorvastatina", "dosis": "20 mg", "frecuencia": "Cada 24 horas (noche)", "via": "Oral", "fechaInicio": "2024-01-20", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Alejandro Morales"},
+  {"id": "med004", "pacienteId": "p001", "medicamento": "Glibenclamida", "dosis": "5 mg", "frecuencia": "Cada 12 horas", "via": "Oral", "fechaInicio": "2023-03-10", "fechaTermino": "2024-01-20", "estado": "Suspendido", "prescritoPor": "Dr. Alejandro Morales"},
+
+  {"id": "med005", "pacienteId": "p002", "medicamento": "Atorvastatina", "dosis": "40 mg", "frecuencia": "Cada 24 horas (noche)", "via": "Oral", "fechaInicio": "2025-08-15", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Isabel Torres"},
+  {"id": "med006", "pacienteId": "p002", "medicamento": "Ezetimiba", "dosis": "10 mg", "frecuencia": "Cada 24 horas", "via": "Oral", "fechaInicio": "2025-11-20", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Isabel Torres"},
+
+  {"id": "med007", "pacienteId": "p003", "medicamento": "Salbutamol Inhalador", "dosis": "100 mcg", "frecuencia": "SOS (según necesidad)", "via": "Inhalada", "fechaInicio": "2020-05-10", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Felipe Guzmán"},
+  {"id": "med008", "pacienteId": "p003", "medicamento": "Budesonida/Formoterol", "dosis": "160/4.5 mcg", "frecuencia": "Cada 12 horas", "via": "Inhalada", "fechaInicio": "2024-06-15", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Felipe Guzmán"},
+
+  {"id": "med009", "pacienteId": "p004", "medicamento": "Metformina", "dosis": "1000 mg", "frecuencia": "Cada 12 horas", "via": "Oral", "fechaInicio": "2019-08-20", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Ricardo Soto"},
+  {"id": "med010", "pacienteId": "p004", "medicamento": "Enalapril", "dosis": "20 mg", "frecuencia": "Cada 12 horas", "via": "Oral", "fechaInicio": "2018-03-15", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Patricia Muñoz"},
+  {"id": "med011", "pacienteId": "p004", "medicamento": "Levotiroxina", "dosis": "75 mcg", "frecuencia": "Cada 24 horas (ayunas)", "via": "Oral", "fechaInicio": "2021-11-10", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Andrea Vidal"},
+  {"id": "med012", "pacienteId": "p004", "medicamento": "Insulina Glargina", "dosis": "18 UI", "frecuencia": "Cada 24 horas (noche)", "via": "Subcutánea", "fechaInicio": "2026-01-15", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Ricardo Soto"},
+
+  {"id": "med013", "pacienteId": "p005", "medicamento": "Levotiroxina", "dosis": "50 mcg", "frecuencia": "Cada 24 horas (ayunas)", "via": "Oral", "fechaInicio": "2025-09-20", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Macarena Pinto"},
+
+  {"id": "med014", "pacienteId": "p006", "medicamento": "Insulina NPH", "dosis": "20 UI", "frecuencia": "Cada 12 horas", "via": "Subcutánea", "fechaInicio": "2024-03-10", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Hernán Lagos"},
+  {"id": "med015", "pacienteId": "p006", "medicamento": "Rosuvastatina", "dosis": "20 mg", "frecuencia": "Cada 24 horas (noche)", "via": "Oral", "fechaInicio": "2025-08-25", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Hernán Lagos"},
+  {"id": "med016", "pacienteId": "p006", "medicamento": "Metformina", "dosis": "850 mg", "frecuencia": "Cada 8 horas", "via": "Oral", "fechaInicio": "2022-06-15", "fechaTermino": "2024-03-10", "estado": "Suspendido", "prescritoPor": "Dr. Hernán Lagos"},
+
+  {"id": "med017", "pacienteId": "p007", "medicamento": "Salbutamol Inhalador", "dosis": "100 mcg", "frecuencia": "SOS (según necesidad)", "via": "Inhalada", "fechaInicio": "2021-03-20", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Carolina Núñez"},
+  {"id": "med018", "pacienteId": "p007", "medicamento": "Montelukast", "dosis": "10 mg", "frecuencia": "Cada 24 horas (noche)", "via": "Oral", "fechaInicio": "2025-11-10", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Carolina Núñez"},
+
+  {"id": "med019", "pacienteId": "p008", "medicamento": "Amlodipino", "dosis": "10 mg", "frecuencia": "Cada 24 horas", "via": "Oral", "fechaInicio": "2023-07-20", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Mario Vergara"},
+  {"id": "med020", "pacienteId": "p008", "medicamento": "Fluticasona Inhalador", "dosis": "250 mcg", "frecuencia": "Cada 12 horas", "via": "Inhalada", "fechaInicio": "2024-09-10", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Mario Vergara"},
+
+  {"id": "med021", "pacienteId": "p009", "medicamento": "Levotiroxina", "dosis": "75 mcg", "frecuencia": "Cada 24 horas (ayunas)", "via": "Oral", "fechaInicio": "2025-11-01", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Lorena Figueroa"},
+  {"id": "med022", "pacienteId": "p009", "medicamento": "Atorvastatina", "dosis": "20 mg", "frecuencia": "Cada 24 horas (noche)", "via": "Oral", "fechaInicio": "2025-10-30", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dra. Lorena Figueroa"},
+
+  {"id": "med023", "pacienteId": "p010", "medicamento": "Metformina", "dosis": "850 mg", "frecuencia": "Cada 12 horas", "via": "Oral", "fechaInicio": "2024-09-01", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Pablo Cárdenas"},
+  {"id": "med024", "pacienteId": "p010", "medicamento": "Losartán", "dosis": "100 mg", "frecuencia": "Cada 24 horas", "via": "Oral", "fechaInicio": "2023-05-15", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Pablo Cárdenas"},
+  {"id": "med025", "pacienteId": "p010", "medicamento": "Hidroclorotiazida", "dosis": "25 mg", "frecuencia": "Cada 24 horas", "via": "Oral", "fechaInicio": "2024-09-01", "fechaTermino": null, "estado": "Activo", "prescritoPor": "Dr. Pablo Cárdenas"}
+]

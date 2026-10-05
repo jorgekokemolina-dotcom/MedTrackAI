@@ -1,0 +1,55 @@
+{
+  "red": {
+    "nombre": "Servicio de Salud Valdivia",
+    "region": "Región de Los Ríos",
+    "total_establecimientos": 12,
+    "establecimientos_piloto": 5
+  },
+  "promedios_nacionales": {
+    "cumplimiento_ges": 97.8,
+    "mediana_espera_consulta_dias": 240,
+    "mediana_espera_cirugia_dias": 294,
+    "ioc": 82.0,
+    "tasa_iaas": 3.3,
+    "reingreso_30_dias": 9.5,
+    "mortalidad_bruta": 2.0,
+    "ausentismo_licencia": 6.8,
+    "tasa_resolucion_aps": 73.0,
+    "cobertura_pscv": 68.0,
+    "control_hba1c": 45.0,
+    "control_hipertensos": 52.0
+  },
+  "estandares_minsal": {
+    "cumplimiento_ges_min": 95,
+    "ioc_min": 80,
+    "ioc_max": 85,
+    "tasa_iaas_max": 3.5,
+    "reingreso_30_dias_max": 10,
+    "ausentismo_max": 7,
+    "rendimiento_box_min": 6.0,
+    "iod_min": 80,
+    "ausentismo_pacientes_max": 15,
+    "espera_urgencia_max_verde": 60,
+    "espera_urgencia_max_ambar": 120,
+    "tasa_resolucion_aps_min": 75,
+    "control_hba1c_min": 60,
+    "control_hipertensos_min": 60,
+    "horas_capacitacion_anual": 24
+  },
+  "trimestres_lista_espera": [
+    { "trimestre": "Q3 2024", "total": 2450 },
+    { "trimestre": "Q4 2024", "total": 2580 },
+    { "trimestre": "Q1 2025", "total": 2680 },
+    { "trimestre": "Q2 2025", "total": 2750 },
+    { "trimestre": "Q3 2025", "total": 2920 },
+    { "trimestre": "Q4 2025", "total": 2847 }
+  ],
+  "adopcion_medtrack_mensual": [
+    { "mes": "2025-07", "historias": 3200 },
+    { "mes": "2025-08", "historias": 3380 },
+    { "mes": "2025-09", "historias": 3520 },
+    { "mes": "2025-10", "historias": 3710 },
+    { "mes": "2025-11", "historias": 3950 },
+    { "mes": "2025-12", "historias": 4218 }
+  ]
+}
